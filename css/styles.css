@@ -41,7 +41,7 @@ a {
     background-color: hsl(0, 0%, 100%);
     margin: 100px auto 25px auto;
     padding: 50px 50px 25px 50px;
-    width: 750px;
+    width: 50%;
     border-radius: 25px;
 }
 
@@ -62,4 +62,14 @@ a {
 .credito {
     text-align: center;
     padding-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+    .content {
+        max-width: 75%;
+        padding: 25px 25px 5px 25px;
+    }
+    ul {
+        padding: 5px;
+    }
 }
