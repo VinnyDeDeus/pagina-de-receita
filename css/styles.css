@@ -64,7 +64,7 @@ a {
     padding-bottom: 50px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .content {
         width: 75%;
         padding: 25px 25px 5px 25px;
